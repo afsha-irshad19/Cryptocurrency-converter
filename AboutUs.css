@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+    min-height: 100vh; 
+    position: relative; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+    color: #f0f0f0;
+}
+
+section#about {
+    background-color: #fff;
+    padding: 50px 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+section#about .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#about .about-content {
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+
+section#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+section#about p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.feature-item {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.feature-item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.feature-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    color: #666;
+}
+
+.contact-info {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    flex-wrap: wrap; 
+}
+
+.contact-info h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left; 
+    width: 100%; 
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}

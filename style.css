@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: black; */
+    color: white;
+    padding: 0 3%;
+}
+nav{
+width: 100%; 
+display: flex;
+align-items: center;
+/* padding: 20px 0; */
+}
+#one{
+    color: red;
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    margin-right: 260px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+nav ul{
+    flex: 2;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px 80px;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    /* margin: 15px; */
+    margin-left: 0px;
+    margin-right: 0;
+    font-size: 18px;
+}
+nav .btn{
+    border: 1px solid white;
+    /* width: 50px;
+    height: 25px; */
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: aliceblue;
+    padding: 10px 30px;
+}
+nav .options:hover{
+    color: red;
+    cursor: pointer;
+    transition:.3s ease-out;
+}
+.content{
+    padding: 12%;
+}
+.content h1{
+    font-size: 90px;
+    margin-bottom: 10px;
+}
+.content h1 span{
+    color: orangered;
+    font-weight: bolder;
+}
+.container p{
+    line-height: 22px;
+    font-size: 18px;
+}
+.content .btn{
+    display: inline-block;
+    margin-top: 30px;
+    background: orangered;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.content .btn:hover{
+    background-color: red;
+}
+.coin-list{
+    position: absolute;
+    right: 20%;
+    left: 5%;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+.coin{
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    /* margin: 50px 20px; */
+    border: 4px solid aliceblue;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.coin:hover{
+    border: 8px solid orangered;
+}
+.img{
+    width: 120px;
+}
+.coin h3{
+   margin-bottom: 5px;
+}
+
